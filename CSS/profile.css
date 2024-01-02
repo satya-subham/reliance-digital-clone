@@ -1,0 +1,101 @@
+.main-section{
+  width: 91%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 24% 76%;
+  border-left: 1px solid #eee;
+}
+
+.left-side-section{
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+}
+.user-details{
+  width: 100%;
+  padding: 12px 28px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.bold{
+  font-weight: 700;
+}
+
+.account-details{
+  /* width: 100%; */
+  padding: 16px 0 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+.account-details i{
+  padding-right: 10px;
+}
+.account-details .txt:not(.bold){
+  padding: 2% 4% 0 12%;
+  line-height: 2.3;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.account-details .txt:not(.bold):hover{
+  color: #003380;
+  font-weight: 700;
+}
+.account-details .logout{
+  padding-top: 15px;
+  padding-bottom: 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.right-side-section{
+  width: 100%;
+  border-left: 2px solid #eee;
+}
+.top-heading{
+  width: 100%;
+  padding: 18px 25px;
+  background-color: #f0f8ff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.account-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.account-box .user-box{
+  border: 1px solid #eee;
+  margin: 4px 20px 20px;
+  padding: 10px 0 20px;
+  cursor: pointer;
+  height: 150px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 270px;
+}
+.user-box .left-side{
+  float: left;
+  padding: 0 11px;
+  word-wrap: break-word;
+  width: 60%;
+}
+.user-box .right-side{
+  float: right;
+  width: 90px;
+  margin-right: 10px;
+}
+.user-box .right-side img{
+  width: 100%;
+  display: block;
+}
+
+.user-box .left-side .title{
+  margin-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #003380;
+  font-weight: 600;
+}
